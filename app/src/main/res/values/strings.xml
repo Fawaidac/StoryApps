@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">StoryApps</string>
+    <string name="wellcome">Wellcome</string>
+    <string name="email">Email</string>
+    <string name="gmail_com">*****@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="hint_password">*********</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t Have an Account ?</string>
+    <string name="register">Register</string>
+    <string name="register_now">Register Now</string>
+    <string name="already_have_an_account">Already Have an Account ?</string>
+    <string name="name">Name</string>
+    <string name="input_your_name">Input your name</string>
+    <string name="story">Story</string>
+    <string name="add_story">Add Story</string>
+    <string name="camera">Camera</string>
+    <string name="galery">Galery</string>
+    <string name="description">Description</string>
+    <string name="logout">Logout</string>
+</resources>

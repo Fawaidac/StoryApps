@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".view.DetailActivity">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Story"
+            android:textColor="@color/white"
+            android:layout_gravity="center|start"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_detail_photo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/ic_place_holder"/>
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="start"
+        android:text="author"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="?android:textColorPrimary"
+        />
+    <TextView
+        android:id="@+id/tv_detail_description"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="desc"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="?android:textColorPrimary"
+        />
+</LinearLayout>

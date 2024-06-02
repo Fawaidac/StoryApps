@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".view.AddActivity">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Story"
+            android:textColor="@color/white"
+            android:layout_gravity="center|start"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_item_photo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/ic_place_holder"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_camera"
+            style="@android:style/Widget.Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg_button"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/camera"
+            android:textColor="@color/white" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_galery"
+            style="@android:style/Widget.Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg_button"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/galery"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/ed_add_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_bg_et"
+        android:layout_margin="20dp"
+        android:lines="5"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsregular"
+        android:padding="10dp"
+        android:hint="@string/description"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_add"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/custom_bg_button"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Upload"
+        android:textColor="@color/white" />
+</LinearLayout>
